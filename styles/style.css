@@ -93,6 +93,66 @@
     max-width: 570px;
 }
 
+/* Products Section Style */
+
+.product-title {
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#product-content {
+    color: #E95A08;
+}
+
+.product-description {
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+.planets-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.planet-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.planet-card img {
+    margin-bottom: 30px;
+    width: 250px;
+}
+
+.planet-title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.planet-price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #E95A08;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    width: 250px;
+}
 
 /* Responsive Mobile device */
 
@@ -132,7 +192,7 @@
     }
 
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-top: 25px;
         max-width: 360px;
         margin: 0 auto;
@@ -149,6 +209,31 @@
     .hero-image img {
         width: 100%;
         height: auto;
+    }
+
+    .product-title {
+        font-size: 1.5rem;
+    }
+
+    .product-description {
+        font-size: 1rem;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .planets-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .planet-card img {
+        width: 160px;
+        max-width: 250px;
+    }
+
+    .btn-primary {
+        width: 160px;
+        max-width: 250px;
     }
 
 }
