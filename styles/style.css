@@ -10,7 +10,7 @@
 .page-container {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 20px;
+    margin-bottom: 100px;
 }
 
 /* primary color */
@@ -71,13 +71,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
 }
 
 .hero-title {
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 15px;
+    max-width: 550px;
 }
 
 #hero-titles {
@@ -86,6 +86,11 @@
 
 .hero-description {
     font-size: 1.3rem;
+    max-width: 550px;
+}
+
+.hero-image img {
+    max-width: 570px;
 }
 
 
@@ -98,28 +103,52 @@
         flex-direction: column;
         align-items: center;
         padding: 10px 0;
+        gap: 20px;
     }
 
     .navbar nav ul {
         display: none;
     }
 
+    .cart-icon {
+        align-self: flex-end;
+        padding-right: 20px;
+
+    }
+
     .logo {
         width: 90px;
+        padding: 0 10px;
+
     }
 
     .hero-container {
         flex-direction: column-reverse;
     }
 
+    .hero-content,
+    .hero-image {
+        margin-top: 0;
+    }
+
     .hero-title {
         font-size: 2.5rem;
         margin-top: 25px;
-        padding: 0 20px;
+        max-width: 360px;
+        margin: 0 auto;
+        padding: 0 15px;
     }
 
     .hero-description {
         font-size: 1.1rem;
-        padding: 0 20px;
+        max-width: 360px;
+        margin: 0 auto;
+        padding: 0 15px;
     }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
 }
