@@ -37,10 +37,10 @@ It showcases a static website structure with clean design and responsiveness opt
 
 ## ✨ Key Features
 
-- ✅ Clean, semantic HTML5 structure  
-- ✅ Responsive CSS layout (Mobile, Tablet & Desktop)  
-- ✅ Organized sections: Home, Services, About, Contact  
-- ✅ Beginner-friendly design  
+-  Clean, semantic HTML5 structure  
+-  Responsive CSS layout (Mobile, Tablet & Desktop)  
+-  Organized sections: Home, Services, About, Contact  
+-  Beginner-friendly design  
 
 ---
 
