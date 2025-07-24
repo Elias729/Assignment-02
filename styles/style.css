@@ -297,22 +297,72 @@
     font-weight: 700;
 }
 
-.deal-description-one a,
-.deal-description-two a {
+.deal-description-one,
+.deal-description-two {
     position: relative;
     z-index: 1;
     color: #FFFFFF;
     font-weight: 500;
     margin-top: 10px;
+    text-decoration: underline;
 }
 
-.deal-description-three a {
+.deal-description-three {
     position: relative;
     z-index: 1;
     color: #FFFFFF;
     font-size: 1.8rem;
     font-weight: 500;
     margin-top: 20px;
+    text-decoration: underline;
+}
+
+/* Join Section Style */
+
+.join-container {
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    height: 530px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.join-title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.join-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.join-input {
+    width: 670px;
+    padding: 20px;
+    border: none;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.join-btn {
+    background-color: #E95A08;
+    color: #FFFFFF;
+    padding: 20px 30px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 /* Responsive Mobile device */
@@ -458,10 +508,31 @@
         text-align: center;
     }
 
-    .deal-description-one a,
-    .deal-description-two a,
-    .deal-description-three a {
+    .deal-description-one,
+    .deal-description-two,
+    .deal-description-three {
         font-size: 0.9rem;
         text-align: center;
+    }
+
+    .join-container {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .join-title {
+        font-size: 1.3rem;
+    }
+
+    .join-input {
+        width: 100%;
+        max-width: 200px;
+        padding: 10px;
+    }
+
+    .join-btn {
+        width: 100%;
+        max-width: 100px;
+        padding: 10px;
     }
 }
