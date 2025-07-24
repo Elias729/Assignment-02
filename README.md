@@ -63,6 +63,12 @@ It showcases a static website structure with clean design and responsiveness opt
 1. Clone the repository:
    ```bash
    git clone https://github.com/Elias729/Assignment-02.git
+
+2. Go to the project directory:
+    ```bash
+   cd Assignment-02
+
+3. Open index.html in your favorite browser to view the site.
    
 --- 
 
