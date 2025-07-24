@@ -176,6 +176,17 @@
     right: -90px;
     width: 250px;
     filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.35));
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .lovers-content {
