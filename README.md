@@ -39,7 +39,6 @@ It showcases a static website structure with clean design and responsiveness opt
 
 - ✅ Clean, semantic HTML5 structure  
 - ✅ Responsive CSS layout (Mobile, Tablet & Desktop)  
-- ✅ Smooth button hover effects  
 - ✅ Organized sections: Home, Services, About, Contact  
 - ✅ Beginner-friendly design  
 
