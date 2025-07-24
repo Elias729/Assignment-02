@@ -7,7 +7,7 @@ Welcome to **Assignment-02**, a simple and elegant HTML/CSS-based responsive web
 This project was created as part of a frontend development learning journey.
 
 ## 🌐 Live Demo
-[View the live site here »](https://elias729.github.io/influencer-gear/)
+[View the live site here »](https://elias729.github.io/Assignment-02/)
 
 ---
 
