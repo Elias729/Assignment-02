@@ -19,6 +19,10 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+#hero-titles {
+    color: #E95A08;
+}
+
 
 
 /* header section */
@@ -80,10 +84,6 @@
     max-width: 550px;
 }
 
-#hero-titles {
-    color: #E95A08;
-}
-
 .hero-description {
     font-size: 1.3rem;
     max-width: 550px;
@@ -102,9 +102,6 @@
     margin-bottom: 15px;
 }
 
-#product-content {
-    color: #E95A08;
-}
 
 .product-description {
     text-align: center;
@@ -159,7 +156,7 @@
 .plants-lover-container {
     display: flex;
     align-items: center;
-    padding: 40px;
+    padding-top: 80px;
     gap: 50px;
 }
 
@@ -195,6 +192,127 @@
 .lovers-list li {
     margin-bottom: 20px;
     font-size: 1.3rem;
+}
+
+/* Latest Deals Section Style */
+
+.deals-title {
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.deals-description {
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+.deals-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.deals-container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    max-width: 360px;
+}
+
+.deals-container-right {
+    flex: 1;
+}
+
+.deal-card-one {
+    background-image: url(../assets/deal-bloom.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.deal-card-two {
+    background-image: url(../assets/deal-ana.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.deal-card-three {
+    background-image: url(../assets/deal-zabo.png);
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    max-width: 760px;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.deal-card-one::before,
+.deal-card-two::before,
+.deal-card-three::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.deal-title-one,
+.deal-title-two {
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.deal-title-three {
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.deal-description-one a,
+.deal-description-two a {
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.deal-description-three a {
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 20px;
 }
 
 /* Responsive Mobile device */
@@ -301,5 +419,49 @@
     .lovers-list li {
         font-size: 1rem;
         margin-bottom: 15px;
+    }
+
+    .deals-title {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    .deals-description {
+        font-size: 0.9rem;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .deals-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0 15px;
+    }
+
+    .deals-container-left,
+    .deals-container-right {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .deal-card-one,
+    .deal-card-two,
+    .deal-card-three {
+        height: 200px;
+    }
+
+    .deal-title-one,
+    .deal-title-two,
+    .deal-title-three {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .deal-description-one a,
+    .deal-description-two a,
+    .deal-description-three a {
+        font-size: 0.9rem;
+        text-align: center;
     }
 }
