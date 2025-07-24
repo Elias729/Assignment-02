@@ -1,8 +1,5 @@
 # 🌐 Assignment 02 - Responsive Website Project
 
-[![GitHub stars](https://img.shields.io/github/stars/Elias729/Assignment-02?style=social)](https://github.com/Elias729/Assignment-02/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Elias729/Assignment-02?style=social)](https://github.com/Elias729/Assignment-02/network)
-
 Welcome to **Assignment-02**, a simple and elegant HTML/CSS-based responsive website.  
 This project was created as part of a frontend development learning journey.
 
