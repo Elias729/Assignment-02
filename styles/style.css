@@ -341,8 +341,6 @@
     text-align: center;
     gap: 25px;
     height: 530px;
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
 .join-title {
@@ -432,7 +430,7 @@
 
 /* Responsive Mobile device */
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
 
     .page-container {
         margin-bottom: 60px;
